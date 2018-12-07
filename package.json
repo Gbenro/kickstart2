@@ -8,6 +8,7 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
+    "postinstall": "next build",
     "export": "npm run build && next export"
   },
   "author": "",
